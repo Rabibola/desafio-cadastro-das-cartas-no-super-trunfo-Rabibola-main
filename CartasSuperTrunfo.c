@@ -30,5 +30,22 @@ int main() {
     printf("Número de Pontos Turísticos: ");
     scanf(" %d", &pontosTuristicos1);
 
+    // Instruções para o usuário inserir os dados da Carta 2
+    printf("\nDigite os dados da Carta 2:\n");
+    printf("Estado (A-H): ");
+    scanf(" %c", &estado2);
+    printf("Código da Carta (exemplo: B02): ");
+    scanf(" %s", codigo2);
+    printf("Nome da Cidade: ");
+    scanf(" %[^\n]", nomeCidade2);
+    printf("População: ");
+    scanf(" %d", &populacao2);
+    printf("Área (em km²): ");
+    scanf(" %f", &area2);
+    printf("PIB (em bilhões de reais): ");
+    scanf(" %f", &pib2);
+    printf("Número de Pontos Turísticos: ");
+    scanf(" %d", &pontosTuristicos2);
+    
     return 0;
 }
