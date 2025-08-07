@@ -13,5 +13,22 @@ int main() {
     int populacao2, pontosTuristicos2;
     float area2, pib2;
 
+    // Instruções para o usuário inserir os dados da Carta 1
+    printf("Digite os dados da Carta 1:\n");
+    printf("Estado (A-H): ");
+    scanf(" %c", &estado1);
+    printf("Código da Carta (exemplo: A01): ");
+    scanf(" %s", codigo1);
+    printf("Nome da Cidade: ");
+    scanf(" %[^\n]", nomeCidade1);
+    printf("População: ");
+    scanf(" %d", &populacao1);
+    printf("Área (em km²): ");
+    scanf(" %f", &area1);
+    printf("PIB (em bilhões de reais): ");
+    scanf(" %f", &pib1);
+    printf("Número de Pontos Turísticos: ");
+    scanf(" %d", &pontosTuristicos1);
+
     return 0;
 }
