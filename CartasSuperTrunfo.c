@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-
-
 int main() {
     // Declaração das variáveis para a Carta 1
     char estado1, codigo1[5], nomeCidade1[50];
@@ -18,9 +16,9 @@ int main() {
     printf("Estado (A-H): ");
     scanf(" %c", &estado1);
     printf("Código da Carta (exemplo: A01): ");
-    scanf(" %s", codigo1);
+    scanf(" %s", &codigo1);
     printf("Nome da Cidade: ");
-    scanf(" %[^\n]", nomeCidade1);
+    scanf(" %[^\n]", &nomeCidade1);
     printf("População: ");
     scanf(" %d", &populacao1);
     printf("Área (em km²): ");
@@ -35,9 +33,9 @@ int main() {
     printf("Estado (A-H): ");
     scanf(" %c", &estado2);
     printf("Código da Carta (exemplo: B02): ");
-    scanf(" %s", codigo2);
+    scanf(" %s", &codigo2);
     printf("Nome da Cidade: ");
-    scanf(" %[^\n]", nomeCidade2);
+    scanf(" %[^\n]", &nomeCidade2);
     printf("População: ");
     scanf(" %d", &populacao2);
     printf("Área (em km²): ");
